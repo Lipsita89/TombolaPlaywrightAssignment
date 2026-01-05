@@ -1,0 +1,4 @@
+{"level":30,"time":1767612098933,"pid":3482,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting user login test"}
+{"level":30,"time":1767612098933,"pid":3482,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Login attempted with provided credentials"}
+{"level":30,"time":1767612099244,"pid":3482,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verified welcome message on HomePage"}
+{"level":30,"time":1767612099244,"pid":3482,"hostname":"Lipsitas-MacBook-Pro.local","msg":"User login test completed successfully"}

@@ -1,0 +1,3 @@
+Clicking on: clicking MyAccount link
+{"level":30,"time":1767612335589,"pid":3629,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verifying the Title"}
+{"level":30,"time":1767612335671,"pid":3629,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verified the Title"}

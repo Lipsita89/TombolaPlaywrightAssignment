@@ -1,0 +1,4 @@
+{"level":30,"time":1767611612832,"pid":2524,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting test: verify BannerImage"}
+{"level":30,"time":1767611612832,"pid":2524,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Login successful"}
+{"level":30,"time":1767611613407,"pid":2524,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verified deposit banner"}
+{"level":30,"time":1767611613407,"pid":2524,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Completed test: verify BannerImage"}

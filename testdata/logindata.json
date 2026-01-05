@@ -1,0 +1,21 @@
+{
+    "loginTests": [
+      {
+        "testName": "Valid login",
+        "username": "techtest1",
+        "password": "TechTest1!",
+        "expected": "success"
+      },
+      {
+        "testName": "Invalid login",
+        "username": "techtest1",
+        "password": "TechTest1",
+        "expected": "failure",
+        "expectedError": "The details you have entered are incorrect. Please check and try again or click here for help."
+      }
+    ],
+    "depositPage": {
+      "expectedHeader": "Deposit Balance Limit"
+    }
+  }
+  

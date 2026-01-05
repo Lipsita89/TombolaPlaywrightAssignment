@@ -1,0 +1,6 @@
+Clicking on: clicking winners link
+{"level":30,"time":1767615755473,"pid":5214,"hostname":"Lipsitas-MacBook-Pro.local","msg":"getting the dropdown options"}
+{"level":30,"time":1767615755623,"pid":5214,"hostname":"Lipsitas-MacBook-Pro.local","msg":"expecting Last 50 pulse JP winners"}
+{"level":30,"time":1767615755624,"pid":5214,"hostname":"Lipsitas-MacBook-Pro.local","msg":"selecting the Last50PulseJP option"}
+{"level":30,"time":1767615755636,"pid":5214,"hostname":"Lipsitas-MacBook-Pro.local","msg":"getting the row count"}
+{"level":30,"time":1767615755644,"pid":5214,"hostname":"Lipsitas-MacBook-Pro.local","msg":"verified the rows count is more than zero"}

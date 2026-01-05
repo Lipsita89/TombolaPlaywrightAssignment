@@ -1,0 +1,12 @@
+Clicking on: clicking MyAccount link
+{"level":30,"time":1767612292237,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Login successful"}
+{"level":30,"time":1767612292238,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Clicking on MyAccount link"}
+Clicking on: clicking MyAccount link
+{"level":30,"time":1767612292473,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Clicking on contactPreferences side menu"}
+Clicking on: clicking MyAccount link
+{"level":30,"time":1767612292855,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Turning off the Bingo toggle"}
+{"level":30,"time":1767612293278,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Turning on the Bingo toggle"}
+{"level":30,"time":1767612293330,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Turning on the Bingo toggle"}
+{"level":30,"time":1767612293424,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Turning off the arcade toggle"}
+{"level":30,"time":1767612293480,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Turning on the arcade toggle"}
+{"level":30,"time":1767612293977,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Clicking on Save changes and verified its updated"}

@@ -1,0 +1,3 @@
+Clicking on: Clicking Add Money button
+{"level":30,"time":1767615715792,"pid":5214,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting test: verify DepositBalanceLimit title"}
+{"level":30,"time":1767615715795,"pid":5214,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Completed test: verify DepositBalanceLimit title"}

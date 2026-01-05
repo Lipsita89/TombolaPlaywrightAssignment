@@ -1,0 +1,7 @@
+{"level":30,"time":1767615317674,"pid":4556,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting user logout test"}
+{"level":30,"time":1767615317674,"pid":4556,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Login attempted with provided credentials"}
+{"level":30,"time":1767615317674,"pid":4556,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Clicked \"Maybe Later\" on HomePage if prompted"}
+Clicking on: Clicking Logout link
+{"level":30,"time":1767615318325,"pid":4556,"hostname":"Lipsitas-MacBook-Pro.local","msg":"User clicked Logout"}
+{"level":30,"time":1767615320683,"pid":4556,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verified Login button is visible after logout"}
+{"level":30,"time":1767615320683,"pid":4556,"hostname":"Lipsitas-MacBook-Pro.local","msg":"User logout test completed successfully"}

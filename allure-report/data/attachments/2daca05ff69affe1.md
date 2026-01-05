@@ -1,0 +1,629 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link:
+      - /url: /bingo-home
+    - generic [ref=e5]: Britain's biggest bingo site
+    - paragraph [ref=e7]: "bingo90 jackpot: £5,722"
+    - generic [ref=e8]:
+      - link "facebook" [ref=e9] [cursor=pointer]:
+        - /url: https://www.facebook.com/tombola
+        - img "facebook" [ref=e10]
+      - link "instagram" [ref=e11] [cursor=pointer]:
+        - /url: https://www.instagram.com/tombola_uk/
+        - img "instagram" [ref=e12]
+      - link "x" [ref=e13] [cursor=pointer]:
+        - /url: https://twitter.com/tombola
+        - img "x" [ref=e14]
+    - generic [ref=e15]:
+      - list:
+        - listitem [ref=e16]:
+          - link "home" [ref=e17] [cursor=pointer]:
+            - /url: /bingo-home
+        - listitem [ref=e18]:
+          - link "logout" [ref=e19] [cursor=pointer]:
+            - /url: /my-account/logged-out-sso
+        - listitem [ref=e20]:
+          - link "my account" [ref=e21] [cursor=pointer]:
+            - /url: /my-account
+        - listitem [ref=e22]:
+          - link "help" [ref=e23] [cursor=pointer]:
+            - /url: /help
+        - listitem [ref=e24]:
+          - link "refer a friend" [ref=e25] [cursor=pointer]:
+            - /url: /refer-a-friend
+        - listitem [ref=e26]:
+          - link "winners" [ref=e27] [cursor=pointer]:
+            - /url: /online-bingo-winners
+        - listitem [ref=e28]:
+          - link "safeplay" [ref=e29] [cursor=pointer]:
+            - /url: /my-account/safeplay
+        - listitem [ref=e30]:
+          - link "Spend Limits" [ref=e31] [cursor=pointer]:
+            - /url: /my-account/spend-limits
+        - listitem [ref=e32]:
+          - link "Promotions" [ref=e33] [cursor=pointer]:
+            - /url: /all-promotions
+        - listitem [ref=e34]:
+          - link "download the app" [ref=e35] [cursor=pointer]:
+            - /url: /bingo-app
+  - generic [ref=e38]:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e45]: Top 10 Picks
+          - generic [ref=e47]: Christmas
+          - generic [ref=e49]: Recently played
+          - generic [ref=e51]: Top games
+          - generic [ref=e53]: Traditional
+          - generic [ref=e55]: Themed
+          - generic [ref=e57]: Arcade
+          - generic [ref=e59]: Spin
+          - generic [ref=e61]: Low cost
+          - generic [ref=e63]: Casino
+          - generic [ref=e65]: Scratch
+          - generic [ref=e67]: Jungle
+          - generic [ref=e69]: Flip
+          - generic [ref=e71]: Free games
+          - generic [ref=e73]: Jackpots
+        - button "All games" [ref=e75] [cursor=pointer]
+      - generic [ref=e78]:
+        - generic [ref=e81]:
+          - generic:
+            - group "1 / 34" [ref=e82]:
+              - link "launch advent" [ref=e83] [cursor=pointer]:
+                - /url: /bingo-games/play/advent
+                - generic [ref=e84]: Free
+                - img "icon for advent" [ref=e85]
+                - paragraph [ref=e86]: advent
+            - group "2 / 34" [ref=e87]:
+              - link "launch bingo90-jungle" [ref=e88] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo90-jungle
+                - img "icon for bingo90-jungle" [ref=e89]
+                - paragraph [ref=e90]: bingo90-jungle
+            - group "3 / 34" [ref=e91]:
+              - link "launch breast-cancer-now" [ref=e92] [cursor=pointer]:
+                - /url: /bingo-games/play/breast-cancer-now
+                - img "icon for breast-cancer-now" [ref=e93]
+                - paragraph [ref=e94]: breast-cancer-now
+            - group "4 / 34" [ref=e95]:
+              - link "launch hulahooklauncher" [ref=e96] [cursor=pointer]:
+                - /url: /bingo-games/play/hulahooklauncher
+                - generic [ref=e97]: New
+                - img "icon for hulahooklauncher" [ref=e98]
+                - paragraph [ref=e99]: hulahooklauncher
+            - group "5 / 34" [ref=e100]:
+              - link "launch bingo90-and-plunder" [ref=e101] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo90-and-plunder
+                - generic [ref=e102]: New
+                - img "icon for bingo90-and-plunder" [ref=e103]
+                - paragraph [ref=e104]: bingo90-and-plunder
+            - group "6 / 34" [ref=e105]:
+              - link "launch livebingo" [ref=e106] [cursor=pointer]:
+                - /url: /bingo-games/play/livebingo
+                - generic [ref=e107]: New
+                - img "icon for livebingo" [ref=e108]
+                - paragraph [ref=e109]: livebingo
+            - group "7 / 34" [ref=e110]:
+              - link "launch shamrock" [ref=e111] [cursor=pointer]:
+                - /url: /bingo-games/play/shamrock
+                - img "icon for shamrock" [ref=e112]
+                - paragraph [ref=e113]: shamrock
+            - group "8 / 34" [ref=e114]:
+              - link "launch bingo90-and-medusa" [ref=e115] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo90-and-medusa
+                - generic [ref=e116]: New
+                - img "icon for bingo90-and-medusa" [ref=e117]
+                - paragraph [ref=e118]: bingo90-and-medusa
+            - group "9 / 34" [ref=e119]:
+              - link "launch Free guarantee" [ref=e120] [cursor=pointer]:
+                - /url: https://www.tombola.co.uk/pages/free-guarantee-july
+                - img "icon for Free guarantee" [ref=e121]
+                - paragraph [ref=e122]: Free guarantee
+            - group "10 / 34" [ref=e123]:
+              - link "launch matchtowin" [ref=e124] [cursor=pointer]:
+                - /url: /bingo-games/play/matchtowin
+                - generic [ref=e125]: Free
+                - img "icon for matchtowin" [ref=e126]
+                - paragraph [ref=e127]: matchtowin
+            - group "11 / 34" [ref=e128]:
+              - link "launch Arcade" [ref=e129] [cursor=pointer]:
+                - /url: https://stage-www.tombolaarcade.co.uk/arcade-home
+                - img "icon for Arcade" [ref=e130]
+                - paragraph [ref=e131]: Arcade
+            - group "12 / 34" [ref=e132]:
+              - link "launch phoenix" [ref=e133] [cursor=pointer]:
+                - /url: /bingo-games/play/phoenix
+                - generic [ref=e134]: Arcade
+                - img "icon for phoenix" [ref=e135]
+                - paragraph [ref=e136]: phoenix
+            - group "13 / 34" [ref=e137]:
+              - link "launch deal-or-no-deal-free" [ref=e138] [cursor=pointer]:
+                - /url: /bingo-games/play/deal-or-no-deal-free
+                - img "lottie-animation-container" [ref=e140]:
+                  - img [ref=e142]
+                - paragraph [ref=e159]: deal-or-no-deal-free
+            - group "14 / 34" [ref=e160]:
+              - link "launch bankbonus" [ref=e161] [cursor=pointer]:
+                - /url: /bingo-games/play/bankbonus
+                - generic [ref=e162]: Test
+                - img "icon for bankbonus" [ref=e163]
+                - paragraph [ref=e164]: bankbonus
+            - group "15 / 34" [ref=e165]:
+              - link "launch mrsclaus" [ref=e166] [cursor=pointer]:
+                - /url: /bingo-games/play/mrsclaus
+                - img "icon for mrsclaus" [ref=e167]
+                - paragraph [ref=e168]: mrsclaus
+            - group "16 / 34" [ref=e169]:
+              - link "launch bingo90" [ref=e170] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo90
+                - generic [ref=e171]: Promo
+                - img "icon for bingo90" [ref=e172]
+                - paragraph [ref=e173]: bingo90
+            - group "17 / 34" [ref=e174]:
+              - link "launch bingo75-lines" [ref=e175] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo75-lines
+                - img "icon for bingo75-lines" [ref=e176]
+                - paragraph [ref=e177]: bingo75-lines
+            - group "18 / 34" [ref=e178]:
+              - link "launch jigsaw" [ref=e179] [cursor=pointer]:
+                - /url: /bingo-games/play/jigsaw
+                - img "icon for jigsaw" [ref=e180]
+                - paragraph [ref=e181]: jigsaw
+            - group "19 / 34" [ref=e182]:
+              - link "launch bingoLite" [ref=e183] [cursor=pointer]:
+                - /url: /bingo-games/play/bingolite
+                - img "icon for bingoLite" [ref=e184]
+                - paragraph [ref=e185]: bingoLite
+            - group "20 / 34" [ref=e186]:
+              - link "launch cinco" [ref=e187] [cursor=pointer]:
+                - /url: /bingo-games/play/cinco
+                - img "icon for cinco" [ref=e188]
+                - paragraph [ref=e189]: cinco
+            - group "21 / 34" [ref=e190]:
+              - link "launch pulse" [ref=e191] [cursor=pointer]:
+                - /url: /bingo-games/play/pulse
+                - img "icon for pulse" [ref=e192]
+                - paragraph [ref=e193]: pulse
+            - group "22 / 34" [ref=e194]:
+              - link "launch reel-bingo" [ref=e195] [cursor=pointer]:
+                - /url: /bingo-games/play/reel-bingo
+                - img "icon for reel-bingo" [ref=e196]
+                - paragraph [ref=e197]: reel-bingo
+            - group "23 / 34" [ref=e198]:
+              - link "launch bankvault" [ref=e199] [cursor=pointer]:
+                - /url: /bingo-games/play/bankvault
+                - img "icon for bankvault" [ref=e200]
+                - paragraph [ref=e201]: bankvault
+            - group "24 / 34" [ref=e202]:
+              - link "launch DealOrNoDeal90s" [ref=e203] [cursor=pointer]:
+                - /url: /bingo-games/play/dealornodeal90s
+                - img "icon for DealOrNoDeal90s" [ref=e204]
+                - paragraph [ref=e205]: DealOrNoDeal90s
+            - group "25 / 34" [ref=e206]:
+              - link "launch superspins" [ref=e207] [cursor=pointer]:
+                - /url: /bingo-games/play/superspins
+                - generic [ref=e208]: Free
+                - img "icon for superspins" [ref=e209]
+                - paragraph [ref=e210]: superspins
+            - group "26 / 34" [ref=e211]:
+              - link "launch rlinstant" [ref=e212] [cursor=pointer]:
+                - /url: /bingo-games/play/rlinstant
+                - img "icon for rlinstant" [ref=e213]
+                - paragraph [ref=e214]: rlinstant
+            - group "27 / 34" [ref=e215]:
+              - link "launch Promo Test" [ref=e216] [cursor=pointer]:
+                - /url: https://stage.tombola.co.uk/pre-buy-promotions/bingo90?promo=25k-full-house-prize-2104
+                - img "icon for Promo Test" [ref=e217]
+                - paragraph [ref=e218]: Promo Test
+            - group "28 / 34" [ref=e219]:
+              - link "launch kingtiki-lobby" [ref=e220] [cursor=pointer]:
+                - /url: /bingo-games/play/kingtiki-lobby
+                - img "icon for kingtiki-lobby" [ref=e221]
+                - paragraph [ref=e222]: kingtiki-lobby
+            - group "29 / 34" [ref=e223]:
+              - link "launch circus" [ref=e224] [cursor=pointer]:
+                - /url: /bingo-games/play/circus
+                - generic [ref=e225]: New
+                - img "icon for circus" [ref=e226]
+                - paragraph [ref=e227]: circus
+            - group "30 / 34" [ref=e228]:
+              - link "launch minefrenzy" [ref=e229] [cursor=pointer]:
+                - /url: /bingo-games/play/minefrenzy
+                - img "icon for minefrenzy" [ref=e230]
+                - paragraph [ref=e231]: minefrenzy
+            - group "31 / 34" [ref=e232]:
+              - link "launch bingo90" [ref=e233] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo90
+                - img "icon for bingo90" [ref=e234]
+                - paragraph [ref=e235]: bingo90
+            - group "32 / 34" [ref=e236]:
+              - link "launch bingo90-and-minefrenzy" [ref=e237] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo90-and-minefrenzy
+                - generic [ref=e238]: New
+                - img "icon for bingo90-and-minefrenzy" [ref=e239]
+                - paragraph [ref=e240]: bingo90-and-minefrenzy
+            - group "33 / 34" [ref=e241]:
+              - link "launch bingo75-lines-live" [ref=e242] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo75-lines-live
+                - img "icon for bingo75-lines-live" [ref=e243]
+                - paragraph [ref=e244]: bingo75-lines-live
+            - group "34 / 34" [ref=e245]:
+              - link "launch bingo90-and-museum" [ref=e246] [cursor=pointer]:
+                - /url: /bingo-games/play/bingo90-and-museum
+                - generic [ref=e247]: New
+                - img "icon for bingo90-and-museum" [ref=e248]
+                - paragraph [ref=e249]: bingo90-and-museum
+        - button "Next slide" [ref=e250] [cursor=pointer]:
+          - img "right arrow" [ref=e251]
+    - link:
+      - /url: https://www.tombola.co.uk/all-promotions
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - list [ref=e257]:
+          - listitem [ref=e258]:
+            - link "Mining Frenzy| tombola":
+              - /url: /bingo-games/play/bingo90
+              - img "Mining Frenzy| tombola" [ref=e259] [cursor=pointer]
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - text: "players online:"
+            - generic [ref=e263]:
+              - generic [ref=e264]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e265]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e266]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e267]: ","
+              - generic [ref=e268]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e269]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e270]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e271]: ","
+              - generic [ref=e272]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e273]: 0 1 2 3 4 5 6 7 8 9
+              - generic [ref=e274]: 0 1 2 3 4 5 6 7 8 9
+          - generic [ref=e275]: "-"
+          - 'link "balance: £56.41" [ref=e277] [cursor=pointer]':
+            - /url: /payment/add-funds
+        - heading "Welcome to Britain's biggest bingo site, techtest1" [level=6] [ref=e278]
+        - generic [ref=e279]:
+          - generic [ref=e283]:
+            - paragraph [ref=e284]: 877 Days Ago
+            - heading "Fox" [level=2] [ref=e285]
+            - paragraph [ref=e287]:
+              - strong [ref=e288]:
+                - text: The quick brown fox jumps over the lazy dog to play
+                - link "promos" [ref=e289] [cursor=pointer]:
+                  - /url: https://stage.tombola.co.uk/promo/happypath
+                  - text: promos
+            - button "Read More" [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]: Read More
+          - generic [ref=e295]:
+            - paragraph [ref=e296]: 1005 Days Ago
+            - heading "Fox" [level=2] [ref=e297]
+            - paragraph [ref=e299]:
+              - strong [ref=e300]: The quick brown fox jumps over the lazy dog
+          - generic [ref=e304]:
+            - paragraph [ref=e305]: 1072 Days Ago
+            - heading "SN-703" [level=2] [ref=e306]
+            - paragraph [ref=e308]:
+              - text: test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test te
+              - link "test" [ref=e309] [cursor=pointer]:
+                - /url: https://stage.tombola.co.uk/my-accountt
+              - text: st
+            - button "Read More" [ref=e310] [cursor=pointer]:
+              - generic [ref=e311]: Read More
+          - generic [ref=e315]:
+            - paragraph [ref=e316]: 1145 Days Ago
+            - heading "Buckle up…" [level=2] [ref=e317]
+            - paragraph [ref=e319]:
+              - text: Fasten your seatbelts and hold on tight as we’re celebrating Roller-Coaster’s 14
+              - superscript [ref=e320]: th
+              - text: birthday with not one, not two, but THREE hours of fun in Chat.
+            - button "Read More" [ref=e321] [cursor=pointer]:
+              - generic [ref=e322]: Read More
+          - generic [ref=e326]:
+            - paragraph [ref=e327]: 1145 Days Ago
+            - heading "£500 voucher to be won" [level=2] [ref=e328]
+            - paragraph [ref=e330]: We may have already given away 3 x £500 Love2Shop vouchers AND 75 x £5 bonus money prizes in this year’s Big Bug Ballot competition, but there are still THREE more chances to win!
+            - button "Read More" [ref=e331] [cursor=pointer]:
+              - generic [ref=e332]: Read More
+          - generic [ref=e336]:
+            - paragraph [ref=e337]: 1145 Days Ago
+            - heading "Play for FREE" [level=2] [ref=e338]
+            - paragraph [ref=e340]: Did you know there are TWO chances to win a prize every day during this year’s I’m A Celeb… in our free daily game Bug Match?
+            - button "Read More" [ref=e341] [cursor=pointer]:
+              - generic [ref=e342]: Read More
+          - generic [ref=e346]:
+            - paragraph [ref=e347]: 1153 Days Ago
+            - heading "Game launchers" [level=2] [ref=e348]
+            - paragraph [ref=e350]: "Click read more for game launchers:"
+            - button "Read More" [ref=e351] [cursor=pointer]:
+              - generic [ref=e352]: Read More
+          - generic [ref=e356]:
+            - paragraph [ref=e357]: 1175 Days Ago
+            - heading "It's a treat" [level=2] [ref=e358]
+            - paragraph [ref=e360]: Have you played our fangtastic new seasonal game Jigsaw yet? There are TWO prizes up for grabs in every game, and Jackpots of up to £1,000 to be won. Head on over and join in the fun from 10p.
+            - button "Read More" [ref=e361] [cursor=pointer]:
+              - generic [ref=e362]: Read More
+          - generic [ref=e366]:
+            - paragraph [ref=e367]: 1175 Days Ago
+            - heading "It’s a treat…" [level=2] [ref=e368]
+            - paragraph [ref=e370]: Have you played our fangtastic new seasonal game Jigsaw yet? There are TWO prizes up for grabs in every game, and Jackpots of up to £1,000 to be won. Head on over and join in the fun from 10p.
+            - button "Read More" [ref=e371] [cursor=pointer]:
+              - generic [ref=e372]: Read More
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: 1182 Days Ago
+            - heading "Jackpots now up to £10k" [level=2] [ref=e378]
+            - paragraph [ref=e380]:
+              - text: Did you hear the
+              - emphasis [ref=e381]: news
+              - text: "? We’ve made some minor changes over in our penny bingo game"
+              - link "Paper" [ref=e382] [cursor=pointer]:
+                - /url: https://stage.tombola.co.uk/bingo-games/play/paper
+              - text: and we’re now
+              - emphasis [ref=e383]: delivering
+              - text: the chance to win Jackpots of up to an incredible £10,000.
+            - button "Read More" [ref=e384] [cursor=pointer]:
+              - generic [ref=e385]: Read More
+          - generic [ref=e389]:
+            - paragraph [ref=e390]: 1187 Days Ago
+            - heading "It’s going to be kraken…" [level=2] [ref=e391]
+            - paragraph [ref=e393]:
+              - text: Did you hear about tonight’s incredible
+              - link "Luck of the Draw" [ref=e394] [cursor=pointer]:
+                - /url: https://www.tombolaarcade.co.uk/promodraw/pirates-curse-draw
+              - text: promo draw? There’s not only a £1,000 Top Prize to be won, but 500 x £5 prizes and 1,000 x 10 Free Plays too!
+              - link "Click here to opt in." [ref=e395] [cursor=pointer]:
+                - /url: https://www.tombolaarcade.co.uk/promodraw/pirates-curse-draw
+            - button "Read More" [ref=e396] [cursor=pointer]:
+              - generic [ref=e397]: Read More
+          - generic [ref=e401]:
+            - paragraph [ref=e402]: 1189 Days Ago
+            - heading "It could B a great day…" [level=2] [ref=e403]
+            - paragraph [ref=e405]: …if your surname begins with a B as today is your Free Fiver day! Just tap the claim button here and we’ll pop your free £5 bonus into your account.
+            - button "Read More" [ref=e406] [cursor=pointer]:
+              - generic [ref=e407]: Read More
+      - generic [ref=e409]:
+        - heading "Recent winners" [level=2] [ref=e410]
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - link [ref=e414] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e415]:
+              - heading "sphelengillibrand" [level=4] [ref=e416]
+              - paragraph [ref=e417]: Won £500.03 on DONDFree
+              - paragraph [ref=e418]: Tue, 9th Dec 02:34
+          - generic [ref=e419]:
+            - link [ref=e420] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e421]:
+              - heading "Candelario28" [level=4] [ref=e422]
+              - paragraph [ref=e423]: Won £500.06 on DONDFree
+              - paragraph [ref=e424]: Mon, 8th Dec 22:40
+          - generic [ref=e425]:
+            - link [ref=e426] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e427]:
+              - heading "enlove" [level=4] [ref=e428]
+              - paragraph [ref=e429]: Won £500.06 on DONDFree
+              - paragraph [ref=e430]: Fri, 5th Dec 13:04
+          - generic [ref=e431]:
+            - link [ref=e432] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e433]:
+              - heading "gilmore8" [level=4] [ref=e434]
+              - paragraph [ref=e435]: Won £500 on DONDFree
+              - paragraph [ref=e436]: Thu, 4th Dec 11:17
+          - generic [ref=e437]:
+            - link [ref=e438] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e439]:
+              - heading "gilmore8" [level=4] [ref=e440]
+              - paragraph [ref=e441]: Won £500 on DONDFree
+              - paragraph [ref=e442]: Thu, 4th Dec 11:05
+          - generic [ref=e443]:
+            - link [ref=e444] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e445]:
+              - heading "gilmore8" [level=4] [ref=e446]
+              - paragraph [ref=e447]: Won £500 on DONDFree
+              - paragraph [ref=e448]: Thu, 4th Dec 10:53
+          - generic [ref=e449]:
+            - link [ref=e450] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e451]:
+              - heading "Reginald.Smith" [level=4] [ref=e452]
+              - paragraph [ref=e453]: Won £500.01 on DONDFree
+              - paragraph [ref=e454]: Wed, 3rd Dec 23:11
+          - generic [ref=e455]:
+            - link [ref=e456] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e457]:
+              - heading "abbywin96" [level=4] [ref=e458]
+              - paragraph [ref=e459]: Won £500 on DONDFree
+              - paragraph [ref=e460]: Tue, 2nd Dec 15:58
+          - generic [ref=e461]:
+            - link [ref=e462] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e463]:
+              - heading "JohnsonTillman27" [level=4] [ref=e464]
+              - paragraph [ref=e465]: Won £500.49 on DONDFree
+              - paragraph [ref=e466]: Mon, 1st Dec 13:58
+          - generic [ref=e467]:
+            - link [ref=e468] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e469]:
+              - heading "whereismycheese" [level=4] [ref=e470]
+              - paragraph [ref=e471]: Won £500.06 on DONDFree
+              - paragraph [ref=e472]: Mon, 1st Dec 10:52
+          - generic [ref=e473]:
+            - link [ref=e474] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e475]:
+              - heading "turbotime92" [level=4] [ref=e476]
+              - paragraph [ref=e477]: Won £500.18 on DONDFree
+              - paragraph [ref=e478]: Mon, 1st Dec 09:46
+          - generic [ref=e479]:
+            - link [ref=e480] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e481]:
+              - heading "turbotime92" [level=4] [ref=e482]
+              - paragraph [ref=e483]: Won £500.18 on DONDFree
+              - paragraph [ref=e484]: Mon, 1st Dec 09:40
+          - generic [ref=e485]:
+            - link [ref=e486] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e487]:
+              - heading "goldenmonkey95" [level=4] [ref=e488]
+              - paragraph [ref=e489]: Won £500.18 on DONDFree
+              - paragraph [ref=e490]: Mon, 1st Dec 09:34
+          - generic [ref=e491]:
+            - link [ref=e492] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e493]:
+              - heading "goldenmonkey95" [level=4] [ref=e494]
+              - paragraph [ref=e495]: Won £500.18 on DONDFree
+              - paragraph [ref=e496]: Mon, 1st Dec 09:22
+          - generic [ref=e497]:
+            - link [ref=e498] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e499]:
+              - heading "goldenmonkey95" [level=4] [ref=e500]
+              - paragraph [ref=e501]: Won £500.18 on DONDFree
+              - paragraph [ref=e502]: Mon, 1st Dec 09:16
+          - generic [ref=e503]:
+            - link [ref=e504] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e505]:
+              - heading "calibano1" [level=4] [ref=e506]
+              - paragraph [ref=e507]: Won £500.18 on DONDFree
+              - paragraph [ref=e508]: Mon, 1st Dec 09:10
+          - generic [ref=e509]:
+            - link [ref=e510] [cursor=pointer]:
+              - /url: /bingo-games/play/bingo90
+            - generic [ref=e511]:
+              - heading "Sim10064" [level=4] [ref=e512]
+              - paragraph [ref=e513]: Won £5,162.52 on bingo90
+              - paragraph [ref=e514]: Sun, 30th Nov 12:03
+          - generic [ref=e515]:
+            - link [ref=e516] [cursor=pointer]:
+              - /url: /bingo-games/play/deal-or-no-deal-free
+            - generic [ref=e517]:
+              - heading "scot.mcgovern" [level=4] [ref=e518]
+              - paragraph [ref=e519]: Won £500.06 on DONDFree
+              - paragraph [ref=e520]: Fri, 28th Nov 15:40
+        - list [ref=e522]:
+          - listitem [ref=e523]:
+            - link "live chat with tombola support Live help" [ref=e524] [cursor=pointer]:
+              - /url: "#"
+              - img "live chat with tombola support" [ref=e525]
+              - heading "Live help" [level=3] [ref=e526]
+          - listitem [ref=e527]:
+            - img "0800 464 3472" [ref=e528]
+            - heading "0800 464 3472" [level=3] [ref=e529]
+          - listitem [ref=e530]:
+            - link "support@tombola.com support@tombola.com" [ref=e531] [cursor=pointer]:
+              - /url: mailto:support@tombola.co.uk
+              - img "support@tombola.com" [ref=e532]
+              - heading "support@tombola.com" [level=3] [ref=e533]
+          - listitem [ref=e534]:
+            - link "tombola house, Low St, Sunderland, SR1 2JR More help" [ref=e535] [cursor=pointer]:
+              - /url: /help
+              - img "tombola house, Low St, Sunderland, SR1 2JR" [ref=e536]
+              - heading "More help" [level=3] [ref=e537]
+    - generic [ref=e538]:
+      - heading "Welcome, techtest1" [level=2] [ref=e539]
+      - img "Free £20 bonus when you deposit £20 Plus 20 Free Plays" [ref=e541]
+      - generic [ref=e542]:
+        - link "Add money" [ref=e543] [cursor=pointer]:
+          - /url: /payment/add-funds
+        - text: Maybe later
+      - paragraph [ref=e544]:
+        - text: Deposit from £10. First deposit only. Any winnings can be withdrawn. Bonus money cannot be withdrawn.
+        - link "T&Cs apply" [ref=e545] [cursor=pointer]:
+          - /url: /promotions/terms-and-conditions#first-deposit-bonus
+  - generic [ref=e546]: feedback
+  - contentinfo [ref=e548]:
+    - generic [ref=e549]:
+      - list [ref=e551]:
+        - listitem [ref=e552]:
+          - link "safeplay" [ref=e553] [cursor=pointer]:
+            - /url: /my-account/safeplay
+        - listitem [ref=e554]:
+          - link "Contact us" [ref=e555] [cursor=pointer]:
+            - /url: /help
+        - listitem [ref=e556]:
+          - link "About us" [ref=e557] [cursor=pointer]:
+            - /url: /about-tombola-bingo
+        - listitem [ref=e558]:
+          - link "Fair gambling" [ref=e559] [cursor=pointer]:
+            - /url: /fair-gambling
+        - listitem [ref=e560]:
+          - link "Chat rules" [ref=e561] [cursor=pointer]:
+            - /url: /bingo-chat-community
+        - listitem [ref=e562]:
+          - link "Terms and conditions" [ref=e563] [cursor=pointer]:
+            - /url: /terms-and-conditions
+        - listitem [ref=e564]:
+          - link "Privacy policy" [ref=e565] [cursor=pointer]:
+            - /url: /privacy-policy
+        - listitem [ref=e566]:
+          - link "Cookie management" [ref=e567] [cursor=pointer]:
+            - /url: "##"
+        - listitem [ref=e568]:
+          - link "Careers" [ref=e569] [cursor=pointer]:
+            - /url: https://careers.tombola.com
+      - list [ref=e571]:
+        - listitem [ref=e572]:
+          - link "Go to tombola Facebook" [ref=e573] [cursor=pointer]:
+            - /url: https://www.facebook.com/tombola
+            - img [ref=e574]
+        - listitem [ref=e575]:
+          - link "Go to tombola Instagram" [ref=e576] [cursor=pointer]:
+            - /url: https://www.instagram.com/tombola_uk/
+            - img [ref=e577]
+        - listitem [ref=e578]:
+          - link "Go to tombola X" [ref=e579] [cursor=pointer]:
+            - /url: https://x.com/tombola
+            - img [ref=e580]
+      - list [ref=e582]:
+        - listitem [ref=e583]:
+          - img "visa" [ref=e584]
+        - listitem [ref=e585]:
+          - img "maestro" [ref=e586]
+        - listitem [ref=e587]:
+          - img "mastercard" [ref=e588]
+        - listitem [ref=e589]:
+          - img "applepay" [ref=e590]
+      - generic [ref=e591]: © tombola Ltd.2005-2024, operated by tombola (international) Plc, company no. 105556 at operating address Tombola International Plc, Floor 4, 55 Line Wall Road, Gibraltar, GX11 1AA. Licenced by the Government of Gibraltar (RGL No. 052) and regulated by the Gibraltar Gambling Commissioner. Tombola (International) Plc is licenced and regulated in Great Britain by the Gambling Commission under account number 38613.
+      - list [ref=e593]:
+        - listitem [ref=e594]:
+          - link "tombola Safeplay" [ref=e595] [cursor=pointer]:
+            - /url: https://www.tombola.co.uk/safeplay
+            - img [ref=e596]
+        - listitem [ref=e597]:
+          - link "GAMSTOP" [ref=e598] [cursor=pointer]:
+            - /url: https://www.gamstop.co.uk/
+            - img [ref=e599]
+        - listitem [ref=e600]:
+          - link "Remote Gambling" [ref=e601] [cursor=pointer]:
+            - /url: https://www.gibraltar.gov.gi/new/remote-gambling
+            - img [ref=e602]
+        - listitem [ref=e603]:
+          - link "GamCare" [ref=e604] [cursor=pointer]:
+            - /url: https://www.gamcare.org.uk/
+            - img [ref=e605]
+        - listitem [ref=e606]:
+          - link "IBAS UK" [ref=e607] [cursor=pointer]:
+            - /url: https://www.ibas-uk.com/
+            - img [ref=e608]
+        - listitem [ref=e609]:
+          - link "GambleAware" [ref=e610] [cursor=pointer]:
+            - /url: https://www.gambleaware.org
+            - img [ref=e611]
+        - listitem [ref=e612]:
+          - link "Gambling Commision" [ref=e613] [cursor=pointer]:
+            - /url: https://registers.gamblingcommission.gov.uk/38613
+            - img [ref=e614]
+```

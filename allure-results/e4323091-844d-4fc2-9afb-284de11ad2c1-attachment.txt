@@ -1,0 +1,4 @@
+{"level":30,"time":1767612310835,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting test: verify AddMoneyButton visibility"}
+{"level":30,"time":1767612310835,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Login successful"}
+{"level":30,"time":1767612311244,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verified Add Money Later button visibility"}
+{"level":30,"time":1767612311244,"pid":3628,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Completed test: verify AddMoneyButton visibility"}
