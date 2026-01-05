@@ -27,7 +27,7 @@ test('verify Logo', async ({loggedInHomePage}) => {
 }),
 
 test('verify Bingo90JungleGame', async ({loggedInHomePage}) => {
-    logger.info('Starting test: verify Logo');
+    logger.info('Starting test: verify Bingo90JungleGame');
     logger.info('Login successful');
     await loggedInHomePage.clickMaybeLater();
     const gamePage=await loggedInHomePage.clickBingo90JungleTileAndSwitch();
