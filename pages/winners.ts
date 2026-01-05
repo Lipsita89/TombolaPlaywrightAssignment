@@ -32,6 +32,8 @@ export class WinnersPage {
     await commonUtils.selectDropdownByValue(this.jackpotDropdown, 'pulse');
   }
 
+
+  
   async getWinnerRowCount(): Promise<number> {
     return await commonUtils.getVisibleRowCount(this.rows);
   }
