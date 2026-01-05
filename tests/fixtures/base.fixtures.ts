@@ -11,7 +11,6 @@ type MyFixtures = {
   loggedInHomePage: HomePage;
   depositPage: DepositBalanceLimit;
   depositBalanceLimit: DepositBalanceLimit;
-
   contactReference: ContactReference;
   winnerspage: WinnersPage;
   myAccount: MyAccount;
@@ -21,7 +20,6 @@ export const test = base.extend<MyFixtures>({
   loggedInHomePage: async ({ page }, use) => {
     const loginPage = new LoginPage(page);
     const homePage = new HomePage(page);
-
     await page.goto(Env.BASE_URL);
     await loginPage.clickAllowCookies();
     await loginPage.isLoginPageExists();
@@ -35,7 +33,8 @@ export const test = base.extend<MyFixtures>({
     await use(depositPage);
   },
 
-  depositBalanceLimit: async ({ depositPage }, use) => {
+  depositBalanceLimit: async ({ loggedInHomePage,depositPage }, use) => {
+    await loggedInHomePage.clickAddMoneyLater();
     await depositPage.verifyPageLoaded();
     await use(depositPage);
   },
@@ -46,12 +45,14 @@ export const test = base.extend<MyFixtures>({
 
   winnerspage: async ({ loggedInHomePage, page }, use) => {
     const winnersPage = new WinnersPage(page);
+    await loggedInHomePage.clickMaybeLater();
     await loggedInHomePage.clickWinners();
     await use(winnersPage);
   },
 
   myAccount: async ({ loggedInHomePage, page }, use) => {
     const myAccountPage = new MyAccount(page);
+    await loggedInHomePage.clickMaybeLater();
     await loggedInHomePage.clickMyAccount();
     await use(myAccountPage);
   },

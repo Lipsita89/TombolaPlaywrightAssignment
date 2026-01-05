@@ -1,4 +1,6 @@
 import { test } from '@fixtures/base.fixtures';
+import { HomePage } from '@pages/home.page';
+import { expect } from '@playwright/test';
 import logger from '../utils/logger';
 
 test('verify BannerImage', async ({loggedInHomePage}) => {
@@ -24,6 +26,16 @@ test('verify Logo', async ({loggedInHomePage}) => {
     logger.info('Completed test: verify Logo');
 }),
 
+test('verify Bingo90JungleGame', async ({loggedInHomePage}) => {
+    logger.info('Starting test: verify Logo');
+    logger.info('Login successful');
+    await loggedInHomePage.clickMaybeLater();
+    const gamePage=await loggedInHomePage.clickBingo90JungleTileAndSwitch();
+    await loggedInHomePage.verifyBingo90JungleGameLaunched(gamePage);
+    logger.info('Verified Bingo90JungleGame');
+    logger.info('Completed test: Bingo90JungleGame');
+}),
+
 test('verify AddMoneyButton visibility', async ({loggedInHomePage}) => {
     logger.info('Starting test: verify AddMoneyButton visibility');
     logger.info('Login successful');
@@ -39,3 +51,4 @@ test('verify MayBeLater visibility', async ({ loggedInHomePage }) => {
     logger.info('Verified Maybe Later button visibility');
     logger.info('Completed test: verify MayBeLater visibility');
 });
+

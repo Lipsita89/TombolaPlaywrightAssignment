@@ -45,7 +45,7 @@ export class ContactReference {
   }
 
   async turnOffOptInAllAndVerify_arcade(): Promise<void> {
-    await commonUtils.toggleOff(this.arcadeOptInAllToggle, 'Bingo Opt-in All toggle');
+    await commonUtils.toggleOff(this.arcadeOptInAllToggle, 'Arcade Opt-in All toggle');
     await commonUtils.ensureUnchecked(this.arcadeSmsCheckbox, 'Arcade SMS');
     await commonUtils.ensureUnchecked(this.arcadeEmailCheckbox, 'Arcade Email');
     await commonUtils.ensureUnchecked(this.arcadePostCheckbox, 'Arcade Post');

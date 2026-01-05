@@ -56,6 +56,22 @@ export class commonUtils {
       await expect(locator).toBeVisible();
     }
   }
+  static async clickAndSwitchToNewWindow(
+    page: Page,
+    locator: Locator,
+    description?: string
+  ): Promise<Page> {
+    await expect(locator).toBeVisible();
+    if (description) {
+      console.log(`Clicking: ${description}`);
+    }
+    const newPagePromise = page.context().waitForEvent('page');
+    await locator.click();
+    const newPage = await newPagePromise;
+    await newPage.waitForLoadState('domcontentloaded');
+    await newPage.bringToFront();
+    return newPage;
+  }
 
   static async verifyAttached(locator: Locator, message?: string) {
     await expect(locator, message ?? 'Element should exist').toBeAttached();
@@ -92,6 +108,15 @@ export class commonUtils {
     await expect(locator, message ?? 'Toggle should be OFF').not.toBeChecked();
   }
 
+  static async expectUrlContains(
+    page: Page,
+    expectedText: string
+  ) {
+    await page.waitForLoadState('domcontentloaded');
+    const currentUrl = page.url();
+    expect(currentUrl).toContain(expectedText);
+  }
+  
   static async toggleOn(locator: Locator, message?: string) {
     await this.verifyAttached(locator, message ?? 'Toggle should exist');
 
@@ -133,9 +158,9 @@ export class commonUtils {
     await expect(locator, message ?? 'Checkbox should be checked').toBeChecked();
   }
 
-  static getCheckboxInSection(section: Locator, label: string): Locator {
-    return section.getByLabel(label, { exact: true });
-  }
+  // static getCheckboxInSection(section: Locator, label: string): Locator {
+  //   return section.getByLabel(label, { exact: true });
+  // }
 
   static async expectVisible(locator: Locator) {
     await expect(locator).toBeVisible();
@@ -160,10 +185,10 @@ export class commonUtils {
     await dropdown.selectOption({ value });
   }
 
-  static async getRowCount(rows: Locator): Promise<number> {
-    await expect(rows.first()).toBeVisible();
-    return rows.count();
-  }
+  // static async getRowCount(rows: Locator): Promise<number> {
+  //   await expect(rows.first()).toBeVisible();
+  //   return rows.count();
+  // }
 
   static async getVisibleRowCount(rows: Locator): Promise<number> {
     await rows.first().waitFor({ state: 'visible' });

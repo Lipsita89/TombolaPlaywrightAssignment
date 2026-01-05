@@ -16,6 +16,9 @@ export class HomePage {
     private readonly Logo: Locator;
     private readonly myAccountlink: Locator;
     private readonly winnerslink: Locator;
+    private readonly allgames: Locator;
+    private readonly bingo90Jungletile: Locator;
+    private readonly textbox: Locator;
 
     constructor(page: Page) {
         this.page = page;
@@ -29,6 +32,15 @@ export class HomePage {
         this.Logo = page.locator('div.logo.iac');
         this.myAccountlink = page.getByRole('link', { name: 'my account' });
         this.winnerslink = page.getByRole('link', { name: /winners/i });
+        this.allgames = page.getByRole('button', { name: 'All games' });;
+        this.bingo90Jungletile = page.getByRole('link', {
+            name: 'launch bingo90-jungle'
+        });
+        this.textbox = page.getByRole('textbox');
+
+    }
+    async fillText() {
+        await this.textbox.fill('text');
     }
 
     async waitForPageLoaded() {
@@ -51,6 +63,18 @@ export class HomePage {
         await this.page.waitForURL(/deposit-balance-limit/, { timeout: 7000 });
         return new DepositBalanceLimit(this.page);
     }
+    async clickBingo90JungleTileAndSwitch(): Promise<Page> {
+        return await commonUtils.clickAndSwitchToNewWindow(
+            this.page,
+            this.bingo90Jungletile,
+            'Bingo 90 Jungle tile'
+        );
+    }
+
+    async verifyBingo90JungleGameLaunched(gamePage: Page) {
+
+        await commonUtils.expectUrlContains(gamePage, 'bingo90-jungle');
+    }
 
     async clickMaybeLater() {
         await commonUtils.clickElement(this.maybeLaterButton, 'Clicking Maybe Later button');
@@ -72,16 +96,8 @@ export class HomePage {
         await commonUtils.verifyVisible(this.depositBanner, 'Deposit banner visibility');
         await commonUtils.verifyImgLoaded(this.depositBanner, 'Deposit banner image should be loaded');
     }
-
-    async isHomePageExists(expectedTitle: string = 'Tombola') {
-        const title = await this.page.title();
-        expect(title).toContain(expectedTitle);
-        return title;
-    }
-
     async clickLogout(): Promise<LoginPage> {
-        //todo change the function name
-        //home.page.ts
+
         await commonUtils.clickElement(this.Logoutlink, 'Clicking Logout link');
         return new LoginPage(this.page);
     }

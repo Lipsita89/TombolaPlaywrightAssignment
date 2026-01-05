@@ -8,8 +8,8 @@ test('verify Deposit Balance Limit Header visibility', async ({ loggedInHomePage
         logger.info('Completed test: verify Deposit Balance Limit Header visibility');
 })
 
-test('verify DepositBalanceLimit title ', async ({ depositBalanceLimit }) => {
+test('verify DepositBalanceLimit title ', async ({ depositPage }) => {
         logger.info('Starting test: verify DepositBalanceLimit title');
-        await depositBalanceLimit.verifyPageLoaded();
+        await depositPage.verifyPageLoaded();
         logger.info('Completed test: verify DepositBalanceLimit title');
 })

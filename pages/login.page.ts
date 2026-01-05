@@ -36,19 +36,7 @@ export class LoginPage {
     async isLoginPageExists(): Promise<void> {
         await expect(this.page).toHaveTitle(/(tombola - log in to play|Britain's Biggest Bingo Site.*tombola)/i);
     }
-
-    async enterUsername(uname: string) {
-
-        await this.usernameInput.fill(uname);
-
-    }
-
-    async enterPassword(pWord: string) {
-
-        await this.passwordInput.fill(pWord);
-        await this.passwordInput.press('Tab');
-    }
-
+    
     async verifyPageLoaded() {
         await commonUtils.verifyPageTitle(this.page, Env.LOGIN_PAGE_TITLE);
     }

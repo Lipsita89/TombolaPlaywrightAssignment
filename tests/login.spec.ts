@@ -21,6 +21,7 @@ test('user logout ',async({loggedInHomePage})=>{
    logger.info('Starting user logout test');
    logger.info('Login attempted with provided credentials');
    logger.info('Clicked "Maybe Later" on HomePage if prompted');
+   await loggedInHomePage.clickMaybeLater();
    const loggedOutLoginPage = await loggedInHomePage.clickLogout();
    logger.info('User clicked Logout');
    await loggedOutLoginPage.assertLoginButtonVisible();
