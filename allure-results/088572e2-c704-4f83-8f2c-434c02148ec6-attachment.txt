@@ -1,3 +1,0 @@
-Clicking on: clicking winners link
-{"level":30,"time":1767615760023,"pid":5215,"hostname":"Lipsitas-MacBook-Pro.local","msg":"verifying the Title"}
-{"level":30,"time":1767615760069,"pid":5215,"hostname":"Lipsitas-MacBook-Pro.local","msg":"verified the Title"}

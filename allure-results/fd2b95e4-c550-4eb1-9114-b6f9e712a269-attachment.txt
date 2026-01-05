@@ -1,4 +1,0 @@
-{"level":30,"time":1767615299475,"pid":4557,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting test: verify MayBeLater visibility"}
-{"level":30,"time":1767615299475,"pid":4557,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Login successful"}
-{"level":30,"time":1767615299654,"pid":4557,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verified Maybe Later button visibility"}
-{"level":30,"time":1767615299654,"pid":4557,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Completed test: verify MayBeLater visibility"}

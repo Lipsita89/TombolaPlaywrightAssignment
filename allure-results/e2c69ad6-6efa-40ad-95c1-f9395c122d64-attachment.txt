@@ -1,3 +1,0 @@
-{"level":30,"time":1767612077165,"pid":3481,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting test: verify Title"}
-{"level":30,"time":1767612077166,"pid":3481,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Login successful"}
-{"level":30,"time":1767612077838,"pid":3481,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Completed test: verify Title"}

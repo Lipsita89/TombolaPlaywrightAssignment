@@ -1,3 +1,0 @@
-Clicking on: clicking MyAccount link
-{"level":30,"time":1767615320858,"pid":4557,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verifying the left menu"}
-{"level":30,"time":1767615321055,"pid":4557,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Verified the left menu"}

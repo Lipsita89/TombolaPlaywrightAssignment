@@ -1,3 +1,0 @@
-Clicking on: Clicking Add Money button
-{"level":30,"time":1767612293885,"pid":3629,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Starting test: verify Deposit Balance Limit Header  visibility"}
-{"level":30,"time":1767612293908,"pid":3629,"hostname":"Lipsitas-MacBook-Pro.local","msg":"Completed test: verify Deposit Balance Limit Header visibility"}
