@@ -16,11 +16,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    //viewport:{width:1280,height:720},
-    // viewport: null,
-    // launchOptions: {
-    //   args: ['--start-maximized']
-    // },
+    viewport:{width:1280,height:720},
     ignoreHTTPSErrors: true,
     permissions: ['geolocation'],
   },
