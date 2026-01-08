@@ -36,6 +36,7 @@ test('verify Bingo90JungleGame', async ({loggedInHomePage}) => {
     logger.info('Completed test: Bingo90JungleGame');
 }),
 
+
 test('verify AddMoneyButton visibility', async ({loggedInHomePage}) => {
     logger.info('Starting test: verify AddMoneyButton visibility');
     logger.info('Login successful');
