@@ -101,7 +101,8 @@ export class commonUtils {
 
       const clicked = await this.clickLabelIfPresent(locator);
       if (!clicked) {
-        await locator.uncheck({ force: true });
+        await locator.uncheck();
+       
       }
     }
 
@@ -123,7 +124,7 @@ export class commonUtils {
     if (!(await locator.isChecked())) {
       const clicked = await this.clickLabelIfPresent(locator);
       if (!clicked) {
-        await locator.check({ force: true });
+        await locator.check();
       }
     }
     await expect(locator, message ?? 'Toggle should be ON').toBeChecked();
@@ -143,7 +144,7 @@ export class commonUtils {
     await this.verifyAttached(locator, message ?? 'Checkbox should exist');
 
     if (await locator.isChecked()) {
-      await locator.uncheck({ force: true });
+      await locator.uncheck();
     }
     await expect(locator, message ?? 'Checkbox should be unchecked').not.toBeChecked();
   }
@@ -152,7 +153,7 @@ export class commonUtils {
     await this.verifyAttached(locator, message ?? 'Checkbox should exist');
 
     if (!(await locator.isChecked())) {
-      await locator.check({ force: true });
+      await locator.check();
     }
 
     await expect(locator, message ?? 'Checkbox should be checked').toBeChecked();

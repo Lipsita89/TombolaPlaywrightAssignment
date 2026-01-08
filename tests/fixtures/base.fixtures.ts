@@ -20,7 +20,7 @@ export const test = base.extend<MyFixtures>({
   loggedInHomePage: async ({ page }, use) => {
     const loginPage = new LoginPage(page);
     const homePage = new HomePage(page);
-    await page.goto(Env.BASE_URL);
+    await page.goto(Env.BASE_URL,{ waitUntil: 'domcontentloaded', timeout: 60_000 });
     await loginPage.clickAllowCookies();
     await loginPage.isLoginPageExists();
     await loginPage.clickLogin(Env.USERNAME, Env.PASSWORD);
