@@ -23,9 +23,13 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-      
+      use: {
+        ...devices['Desktop Chrome'],
+  
+        viewport: { width: 1440, height: 900 },
+        launchOptions: {
+          args: ['--window-size=1440,900', '--force-device-scale-factor=1'],
+        },
+      },
     },
-  ],
-
-});
+  ]});

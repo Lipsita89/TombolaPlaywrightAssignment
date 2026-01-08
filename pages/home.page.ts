@@ -33,9 +33,9 @@ export class HomePage {
         this.myAccountlink = page.getByRole('link', { name: 'my account' });
         this.winnerslink = page.getByRole('link', { name: /winners/i });
         this.allgames = page.getByRole('button', { name: 'All games' });;
-        this.bingo90Jungletile = page.getByRole('link', {
-            name: 'launch bingo90-jungle'
-        });
+        this.bingo90Jungletile=page.getByRole('link', {
+            name: 'launch Bingo 90 Jungle',
+          });
         this.textbox = page.getByRole('textbox');
 
     }
