@@ -4,6 +4,7 @@ export default defineConfig({
   timeout: 30 * 1000,
   testDir: './tests',
   fullyParallel: true,
+  retries:3,
   forbidOnly: !!process.env.CI,
   workers: 1,
   reporter: [['html', { outputFolder: '../reports/html-report' }],
